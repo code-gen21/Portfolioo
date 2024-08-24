@@ -1,0 +1,39 @@
+.contact-page{
+    display: flex;
+    background-color: #010e1b;
+    min-height: 100vh;
+    justify-content: center;
+}
+.contact-container{
+    width:70vw;
+}
+.contact-container h4{
+    color:white;
+}
+.contact-ways{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-block{
+    display: flex;
+    background-color: #09203a;
+    margin:2rem;
+    padding:2rem;
+    min-width:40%;
+}
+.content{
+    color:white;
+    margin-inline:1rem;
+    font-size: 1.2rem;
+}
+.content-heading{
+    color:#12d640;
+    font-weight: 700;
+}
+.main-content{
+    width: 90%;
+}
+ a {
+    display: inline-block;
+    color: white;
+}

@@ -1,0 +1,46 @@
+.skills-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #010e1b;
+    min-height: 100vh;
+}
+
+.skills-container {
+    width: 80vw;
+}
+
+.skills-container h5 {
+    color: white;
+    margin-block: 20px;
+}
+
+.skills {
+    background-color: white;
+    color: white;
+    margin-left: 12px;
+    padding: 2rem;
+    margin-bottom: 20px;
+}
+
+.skills h2 {
+    color: black;
+    margin-bottom:1rem;
+}
+
+.my-skills{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+}
+.my-skills svg {
+    height: 60px;
+    margin-right: 1rem;
+}
+
+@media (max-width: 475px) {
+    .skills h2 {
+        font-size: 1.2rem;
+    }
+
+}

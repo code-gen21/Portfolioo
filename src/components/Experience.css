@@ -1,0 +1,48 @@
+.experience-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #010e1b;
+    min-height:100vh;
+}
+.experience-container{
+    width: 80vw;
+}
+.experience-container h5{
+    color:white;
+    margin-block:20px;
+}
+.experience{
+    background-color: #09203a;
+    color:white;
+    margin-left:12px;
+    padding:2rem;
+    margin-bottom:20px;
+}
+.experience h2{
+    color:#12d640;
+}
+.time-period{
+    margin-block:15px;
+    font-size: 1rem;
+}
+.position{
+    font-style: italic;
+    font-size: 0.9rem;
+}
+.work{
+    margin-left:2rem;
+    padding-top: 10px;
+    line-height: 1.2rem;
+}
+
+
+@media (max-width: 500px){
+    .experience-container{
+        width: 90vw;
+    }
+    .experience{
+        padding:1rem;
+    }
+
+}

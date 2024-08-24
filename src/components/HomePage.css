@@ -1,0 +1,97 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background: radial-gradient(104% 68% at 100% 70%, #78FFE7 0%, #6798E0 67%, #745ABF 100%);
+}
+
+.home-main-component{
+    width: 350px;
+    padding:3rem 2rem;
+    border-radius: 30px;
+    background:linear-gradient(45deg, #2D3040 0%, #545669 84%);
+}
+.home-main-component p{
+    color: #B0B8D4;
+    padding-block:1rem;
+    font-size: 0.8rem;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.home-main-component h1{
+    font-size: 2rem;
+    color:rgba(182, 162, 253, 0.89);
+}
+
+.home-buttons{
+    padding-top:2rem;
+}
+.home-buttons a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    padding-inline: 1.2rem;
+    padding-block: 0.7rem;
+    display: inline-block;
+    color:#47548b;
+}
+.home-buttons button{
+    background-color: #71A2EB;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(45deg, rgba(130, 103, 207, 0.71) 0%, rgba(113, 162, 235, 0.008) 60%);
+    border-radius: 7px;
+    border:none;
+    transition: 0.2s;
+}
+.home-buttons button:hover{
+    transform: scale(1.04);
+}
+.home-socialIcons a{
+    display: inline-block;
+    color:black;
+    padding:10px 20px;
+}
+
+@media (max-width: 370px) {
+    .home-buttons button{
+        display: block;
+        width:100%;
+    }
+    .home-buttons a{
+        font-size: 1rem;
+    }
+    .home-main-component{
+        width: 95%;
+        padding: 2rem 1rem;
+    }
+    .home-main-component p{
+        padding-block: 0.5rem;
+    }
+    .home-buttons{
+        padding-top:1rem;
+    }
+    .icons-size{
+        height:15px;
+        width:15px;
+    }
+    .home-socialIcons a{
+        padding-block: 8px 0;
+    }
+}
+
+@media (max-height: 600px){
+    .icons-size{
+        height:15px;
+        width:15px;
+    }
+    .home-socialIcons a{
+        padding-block: 8px 0;
+    }
+    .home-main-component{
+        padding: 3rem 1.5rem;
+    }
+}

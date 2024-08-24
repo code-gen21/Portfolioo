@@ -1,0 +1,121 @@
+.about-page{
+    display: flex;
+    background-color: #010e1b;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.about-container{
+    width: 70vw;
+}
+
+.about-container h3{
+    color:white;
+    margin-top:2rem;
+}
+.image-about-section{
+    display: flex;
+    margin-block:2rem;
+}
+.image-about-section img{
+    width:258px;
+    border-radius: 20px;
+    max-height:420px;
+}
+.about-section{
+    color:white;
+    margin:20px;
+}
+.arrow-right{
+    color:#12d640;    
+}
+.basic-info-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-block:1rem;
+}
+.basic-info{
+    display: flex;
+    min-width: 40%;
+    margin:10px;
+}
+.basic-info h4{
+    padding-inline:5px;
+}
+.about-sid{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.2rem;
+}
+.interests{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.each-interest{
+    color:white;
+    /* display: inline-block; */
+    background-color: #09203a;
+    padding:1rem;
+    margin:1rem;
+    display: flex;
+    align-items: center;
+    width:40%;
+    transition:0.5s;
+}
+.each-interest span svg{
+    width:3rem;
+    padding:0.3rem;
+    margin-inline:10px;
+}
+
+.each-interest:hover{
+    background-color: #12355c;
+}
+
+@media (max-width:1161px){
+    .about-container {
+        width: 80vw;
+    }
+}
+@media (max-width:1020px) {
+    .image-about-section{
+        margin-block:1rem;
+    }
+}
+@media (max-width:950px){
+    .image-about-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-about-section img{
+        width:200px;
+        max-height:330px;
+    }
+    .about-container h3{
+        margin-top:0;
+    }
+}
+@media (max-width:780px){
+    .basic-info-container{
+        flex-direction: column;
+    }
+    .interests{
+        flex-direction: column;
+    }
+    .each-interest{
+        width:80%;
+    }
+}
+@media (max-width:410px){
+    .about-sid{
+        padding-inline:15px;
+    }
+    .each-interest{
+        width:95%;
+        padding: 1rem;
+        margin-inline: 0.5rem;
+    }
+}
